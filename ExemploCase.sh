@@ -7,10 +7,10 @@
 # Autor: Matheus Freitas (matheus.freitas@ibti.org.br)              #
 # Data: 10/06/2019                                                  #
 #                                                                   #
-# Descrição: O Script mostra um exemplo de comando IF               #
+# Descrição: O Script mostra um exemplo de comando Case             #
 #                                                                   #
-# Uso: ./ExemploCase.sh root                                        #
-#                                                                   #
+# Uso: ./ExemploCase.sh A                                           #
+# Uso: ./ExemploCase.sh 0                                           #
 #####################################################################
 
 case "$1" in
@@ -26,3 +26,4 @@ case "$1" in
     *)
         echo "O parâmetro é um caracter especial"
 esac
+
